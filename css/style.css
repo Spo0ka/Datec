@@ -12,10 +12,42 @@ footer p{
     max-height: 30rem;
 }
 
+.fila{
+    width: 100% !important;
+    text-align: center;
+}
+
+#img-equipo{
+    max-height: 30rem;
+    max-width: 70%;
+}
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 /* Media querys */
 
 @media (max-width:768px){
+    #equipo {
+        width: 90%;
+    }
     #intro{
     width: 90% !important;
+    }
+}
+
+@media (max-width:576px){
+    .wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
     }
 }
